@@ -191,4 +191,6 @@ class StudyTimerApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = StudyTimerApp(root)
+    from api_books import attach_book_search
+    attach_book_search(root)
     root.mainloop()

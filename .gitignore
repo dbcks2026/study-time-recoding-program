@@ -1,2 +1,14 @@
 .venv/
 __pycache__/
+
+# 자동 생성 파일 및 비밀 정보
+*.pyc
+.env
+.env.*
+.api-backups/
+.pytest_cache/
+.ruff_cache/
+records.json
+study_records.json
+api_assignment_laptop/
+*.zip
